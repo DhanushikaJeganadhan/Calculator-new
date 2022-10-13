@@ -12,6 +12,45 @@ body{
     width: 300px;
     height: 500px;
     box-shadow: 0 5px 40px black;
+    background:rgb(59, 59, 59);
+    border-radius: 12px;
+    overflow: hidden;
+}
+form input{
+    width: 100%;
+    height: 100px;
+    background-color:black;
+    border: none;
+    font-size: 2rem;
+    padding: 1rem;
+    color: white;
+    font-weight: 800px;
+    text-align: right;
+    pointer-events: none;
+
+}
+button{
+    flex:0 0 22%;
+    margin: 5px 0;
+    width: 60px;
+    height: 52px;
+    font-size: 22px;
+    font-weight: 600;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.button{
     display: flex;
-    align-items: ;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+}
+button:hover{
+    background-color: gray;
+}
+.green{
+    background-color: rgb(31, 105, 31);
+}
+.red{
+    background-color: rgb(235, 44, 44);
 }
