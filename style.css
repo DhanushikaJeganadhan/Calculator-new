@@ -17,17 +17,16 @@ body{
     overflow: hidden;
 }
 form input{
-    width: 100%;
+    width: 280px;
     height: 100px;
     background-color:black;
     border: none;
     font-size: 2rem;
-    padding: 1rem;
+    padding: 10px;
     color: white;
     font-weight: 800px;
     text-align: right;
     pointer-events: none;
-
 }
 button{
     flex:0 0 22%;

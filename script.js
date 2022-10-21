@@ -5,13 +5,21 @@
     let equal=document.querySelector('.red');
     
     button.forEach(function(buttons){
-        buttons.addEventListener('click',function(event){
-            let value=event.target.dataset.num;
-            screen.value+=value;
+        buttons.addEventListener('click',function(e){
+            let value=e.target.dataset.num;
+            screen.value +=value;
         })
     })
-    //dsf
-    
 
-
+    equal.addEventListener('Click',function(e){
+        if(screen.value ===''){
+            screen.value=="";
+        }else{
+            let answer=eval(screen.value);
+            screen.value=answer;
+        }
+    })
+    clear.addEventListener('click',function(e){
+        screen.value="";
+    })
 })();
